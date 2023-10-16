@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+.grid-frame{
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+}
+
+#hem,#omOss, #sortiment, #kontakt{
+	font-size: 20px;
+	color: black;
+}
+
+
+#bx1{
+	grid-column: 1/2;
+}
+
+#bx1, #bx2 ,#bx3{
+	border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+#bx2{
+	grid-column: 2/4;
+	text-align: center;
+	padding-top: 40px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+#hem:hover{
+	background-color: black;
+	color: white;
+}
+#omOss:hover{
+	background-color: black;
+	color: white;
+}
+#sortiment:hover{
+	background-color: black;
+	color: white;
+}
+#kontakt:hover{
+	background-color: black;
+	color: white;
+}
+
+#bx2 li{
+	list-style: none;
+	display: inline
+}
+
+#bx3{
+	padding-top: 40px;
+	grid-column: 4/5;
+	text-align: right;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+#bx3 li{
+	list-style: none;
+	display: inline;
+	
+}
+
+#bx4{
+	grid-column: 1/4;
+	grid-row: 2/5;
+	height: 667px;
+	width: 1000px;
+	display: flex;
+	justify-content: center;
+}
+
+#shopfront{
+	width: 1000px;
+	height: 667px;
+}
+
+#garden{
+	height: 667px;
+	width: 1000px;
+}
+
+#bx5hem{
+	grid-column: 4/5;
+	grid-row:2/5;
+	background-color: whitesmoke;
+	text-align: center;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+#logo{
+	width: 200px;
+	height: 200px;
+}
+
+p{
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+.flex-container{
+	display: flex;
+	background-color: black;
+	align-self: stretch;
+}
+
+.flex-container > div {
+  background-color: black;
+  color: white;
+  font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+  margin: 10px;
+  padding: 20px;
+  font-size: 15px;
+}
+.fa-facebook{
+	background-color: white;
+	color: black;
+	width: 25px;
+	height: 25px;
+	padding: 10px;
+}
+.fa-instagram{
+	background-color: white;
+	height: 25px;
+	width: 25px;
+	color: black;
+	
+}
